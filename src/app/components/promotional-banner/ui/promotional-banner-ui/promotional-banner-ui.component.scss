@@ -1,0 +1,114 @@
+.promotional-banner-container {
+    border-radius: 16px;
+    background-color: #F3F4FF;
+
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.text-desktop {
+    margin-right: 24px;
+}
+
+.title-desktop {
+   font-size: 20px;
+   font-weight: 800;
+   
+   font-family: 'Nunito', sans-serif;
+
+   color: #2B2B43;
+
+   margin-top: 24px;
+   margin-bottom: 8px;
+}
+
+.discount-desktop {
+    font-size: 40px;
+    font-weight: 900;
+
+    font-family: 'Nunito', sans-serif;
+
+    color: #4E60FF;
+}
+
+.category-desktop {
+    font-size: 16px;
+    font-weight: 400;
+
+    font-family: 'Nunito', sans-serif;
+
+    color: #83859C;
+
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+.image-desktop {
+    margin-bottom: -10px;
+}
+
+@media (max-width: 1050px) {
+    .promotional-banner-container-desktop {
+        display: none;
+    }
+
+    .promotional-banner-container-modile {
+        display: block;
+    }
+}
+
+@media (min-width: 1050px) {
+    .promotional-banner-container-desktop {
+        display: flex;
+    }
+
+    .promotional-banner-container-modile {
+        display: none;
+    }
+}
+
+
+.promotional-banner-container-modile {
+    padding: 16px;
+    padding-bottom: 0;
+}
+
+.text-modile {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-modile {
+    font-size: 20px;
+    font-weight: 800;
+   
+    font-family: 'Nunito', sans-serif;
+
+    color: #2B2B43;
+}
+
+.discount-modile {
+    font-size: 40px;
+    font-weight: 900;
+
+    font-family: 'Nunito', sans-serif;
+
+    color: #4E60FF;
+}
+
+.category-modile {
+    font-size: 16px;
+    font-weight: 400;
+
+    font-family: 'Nunito', sans-serif;
+
+    color: #83859C;
+}
+
+.image-modile {
+    display: block;
+    margin: 0 auto;
+}
